@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Visualizer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="../sv-removebg-preview.png" type="image/x-icon">
+</head>
+<body>
+    <h1>Search Visualizer</h1>
+    <div>
+        <label for="array-size">Enter size of array: </label>
+        <input type="number" id="array-size" min="1" />
+        <button onclick="generateArray()">Generate Array</button>
+    </div>
+    <div>
+        <label for="search-value">Enter value to search: </label>
+        <input type="number" id="search-value" />
+        <button onclick="startLinearSearch()">Linear Search</button>
+        <button onclick="startBinarySearch()">Binary Search</button>
+    </div>
+    <div id="array-container"></div>
+    <div id="result"></div>
+    <div id="code-container">
+        <h2>Algorithm Code</h2>
+        <pre id="code"></pre>
+    </div>
+    <div id="complexity">
+        <h2>Time Complexity</h2>
+        <p id="time-complexity"></p>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>

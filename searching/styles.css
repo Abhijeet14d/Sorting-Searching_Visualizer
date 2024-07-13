@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#array-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.array-element {
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.highlight {
+    background-color: yellow;
+}
+
+#result {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+#code-container, #complexity {
+    margin-top: 20px;
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+pre {
+    background: #f4f4f4;
+    padding: 10px;
+    border: 1px solid #ddd;
+}

@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.controls {
+    margin: 20px;
+}
+
+.array-container {
+    display: flex;
+    align-items: flex-end;
+    height: 400px;
+    width: 80%;
+    border: 1px solid #ccc;
+    margin: 20px 0;
+}
+
+.bar {
+    margin: 0 1px;
+    background-color: teal;
+}
+
+.info {
+    width: 80%;
+    margin: 20px 0;
+}
+
+pre {
+    background-color: #f4f4f4;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
